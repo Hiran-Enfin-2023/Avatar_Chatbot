@@ -21,7 +21,7 @@ const chatbase_id = chatbase_config.chatbase_id;
 
 if (apiKey === 'YourApiKey' || SERVER_URL === '') {
   alert('Please enter your API key and server URL in the api.json file');
-}
+} 
 
 let sessionInfo = null;
 let peerConnection = null;
